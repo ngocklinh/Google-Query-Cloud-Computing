@@ -1,0 +1,14 @@
+runtime: php55
+api_version: 1
+handlers:
+- url: /*
+  script: index.php
+- url: /add_project.php
+  script: add_project.php
+- url: /edit_project.php
+  script: edit_project.php
+- url: /delete_project.php
+  script: delete_project.php
+- url: /list_project.php
+  script: list_project.php
+  
